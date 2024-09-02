@@ -30,8 +30,8 @@
   <script type="module">
     import { ambilDaftarSiswa } from './main.js';
     
-    $(document).ready( async function() {
-      let elemenDaftarSiswa = $("#daftar-siswa > <tbody");
+    $(Document).ready(async function() {
+      let elemenDaftarSiswa = $("#daftar-siswa > tbody");
       let daftarSiswa = await ambilDaftarSiswa();
       
       daftarSiswa.forEach((data) => {
@@ -45,8 +45,8 @@
           )
       })
       
-   
-    })
+  
+   })
    
    </script>
   
